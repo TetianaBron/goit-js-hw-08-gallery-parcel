@@ -1,0 +1,28 @@
+{
+  "name": "goit-js-hw-08-gallery-parcel",
+  "version": "1.0.0",
+  "description": "NPM basics",
+  "main": "index.js",
+  "scripts": {
+  "dev": "parcel src/index.html",
+  "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetianaBron/goit-js-hw-08-gallery-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TetianaBron/goit-js-hw-08-gallery-parcel/issues"
+  },
+  "homepage": "https://github.com/TetianaBron/goit-js-hw-08-gallery-parcel#readme",
+  "keywords": [],
+  "dependencies": {
+    "joi": "^17.2.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
