@@ -4,8 +4,10 @@
   "description": "NPM basics",
   "main": "index.js",
   "scripts": {
-  "dev": "parcel src/index.html",
-  "build": "parcel build src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-08-gallery-parcel/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,13 +18,15 @@
   "bugs": {
     "url": "https://github.com/TetianaBron/goit-js-hw-08-gallery-parcel/issues"
   },
-  "homepage": "https://github.com/TetianaBron/goit-js-hw-08-gallery-parcel#readme",
+  "homepage": "https://tetianabron.github.io/goit-js-hw-08-gallery-parcel",
   "keywords": [],
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "joi": "^17.2.1",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
